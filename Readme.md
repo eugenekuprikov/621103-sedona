@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Eugene Kuprikov](https://up.htmlacademy.ru/htmlcss/23/user/621103).
-* Наставник: `Неизвестно`.
+* Наставник: [Гоша Егорян](https://up.htmlacademy.ru/htmlcss/23/user/85633).
 
 ---
 
