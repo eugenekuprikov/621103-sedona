@@ -31,3 +31,15 @@ a {
 .site-navigation a {
   color: #000000;
 }
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:focus {
+  color: #766357;
+}
+
+.site-navigation a:active {
+  color: #cacaca;
+}
