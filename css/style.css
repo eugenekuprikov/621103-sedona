@@ -169,6 +169,14 @@ a {
   color: #ffffff;
 }
 
+.price p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
