@@ -257,6 +257,13 @@ a {
   color: #cacaca;
 }
 
+.chosen-hotels-type,
+.chosen-hotels-price {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
