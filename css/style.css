@@ -190,3 +190,12 @@ a {
   text-transform: uppercase;
   color: #000000;
 }
+
+.date-info input:hover {
+  background-color: #ebebeb;
+}
+
+.date-info input:focus {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
