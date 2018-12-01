@@ -152,6 +152,11 @@ a {
   color: #ffffff;
 }
 
+.filter ul {
+  list-style: none;
+  line-height: 21px;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
