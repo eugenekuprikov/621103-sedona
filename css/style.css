@@ -264,6 +264,15 @@ a {
   color: #333333;
 }
 
+.chosen-hotels-detail .button {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #81b3d2;
+  border: none;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
