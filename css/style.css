@@ -243,6 +243,12 @@ a {
   background-color: #ffffff;
 }
 
+.chosen-hotels-item h3 a {
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
