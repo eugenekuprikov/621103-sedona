@@ -235,6 +235,10 @@ a {
   border-bottom: none;
 }
 
+.chosen-hotels-list {
+  list-style: none;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
