@@ -112,3 +112,15 @@ a {
   line-height: 24px;
   color: #333333;
 }
+
+.button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #766357;
+  border: none;
+}
