@@ -124,3 +124,13 @@ a {
   background-color: #766357;
   border: none;
 }
+
+.button:hover {
+  background-color: #604e43;
+}
+
+.button:active {
+  background-color: #503e33;
+  color: #928a85;
+  border: none;
+}
