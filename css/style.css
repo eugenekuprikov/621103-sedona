@@ -221,6 +221,20 @@ a {
   border-bottom: 1px dotted #81b3d2;
 }
 
+.sorting-all a:hover {
+  color: #81b3d2;
+}
+
+.sorting-all a:focus {
+  color: #81b3d2;
+  border-bottom: none;
+}
+
+.sorting-all a:active {
+  color: #000000;
+  border-bottom: none;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
