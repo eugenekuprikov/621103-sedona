@@ -273,6 +273,15 @@ a {
   border: none;
 }
 
+.chosen-hotels-detail .button:hover {
+  background-color: #669ec0;
+}
+
+.chosen-hotels-detail .button:active {
+  background-color: #5496bd;
+  color: #94b9d2;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
