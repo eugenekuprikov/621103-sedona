@@ -231,3 +231,12 @@ a {
   border: none;
 }
 
+.search-form button[type="submit"]:hover {
+  background-color: #669ec0;
+}
+
+.search-form button[type="submit"]:active {
+  color: #94b9d2;
+  background-color: #5496bd;
+}
+
