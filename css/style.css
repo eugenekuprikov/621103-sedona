@@ -89,3 +89,9 @@ a {
   color: #ffffff;
   background-color: #81b3d2;
 }
+
+.feature-list li:nth-child(3),
+.feature-list li:nth-child(4),
+.feature-list li:nth-child(5) {
+  background-color: #eeeeee;
+}
