@@ -170,3 +170,23 @@ a {
   background-color: #ffffff;
   text-align: center;
 }
+
+.date-info input[type="text"],
+.people-quantity input[type="text"] {
+  color: #000000;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+  border: none;
+}
+
+.date-info label,
+.people-quantity label {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
