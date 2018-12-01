@@ -141,4 +141,17 @@ a {
   opacity: 0.9;
 }
 
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-social a {
+  color: #000000;
+  background-color: #81b3d2;
+}
+
 
