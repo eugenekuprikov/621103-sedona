@@ -210,3 +210,11 @@ a {
   vertical-align: middle;
   border: none;
 }
+
+.people-quantity button:hover {
+  color: #000000;
+}
+
+.people-quantity button:active {
+  color: #81b3d2;
+}
