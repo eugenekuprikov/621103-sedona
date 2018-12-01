@@ -282,6 +282,11 @@ a {
   color: #94b9d2;
 }
 
+.chosen-hotels-booking a {
+  font-size: 14px;
+  line-height: 21px;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
