@@ -192,6 +192,18 @@ a {
   background-color: #ffffff;
 }
 
+.sorting {
+  background-color: #ffffff;
+}
+
+.sorting .found,
+.sorting .result {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
