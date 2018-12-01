@@ -187,6 +187,11 @@ a {
   vertical-align: middle; 
 }
 
+.filter button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
