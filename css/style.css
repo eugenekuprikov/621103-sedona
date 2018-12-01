@@ -239,6 +239,10 @@ a {
   list-style: none;
 }
 
+.chosen-hotels-item {
+  background-color: #ffffff;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
