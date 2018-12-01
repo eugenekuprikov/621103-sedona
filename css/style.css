@@ -249,6 +249,14 @@ a {
   color: #000000;
 }
 
+.chosen-hotels-item h3 a:hover {
+  color: #81b3d2;
+}
+
+.chosen-hotels-item h3 a:active {
+  color: #cacaca;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
