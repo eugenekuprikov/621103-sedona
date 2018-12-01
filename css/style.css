@@ -95,3 +95,8 @@ a {
 .feature-list li:nth-child(5) {
   background-color: #eeeeee;
 }
+
+.interested {
+  background-color: #ffffff;
+  text-align: center;
+}
