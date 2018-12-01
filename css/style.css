@@ -14,6 +14,12 @@ body {
   background-repeat: no-repeat;
 }
 
+.inner-page {
+  background-image: url("../img/background inner.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
 a {
   text-decoration: none;
 }
