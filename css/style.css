@@ -157,6 +157,12 @@ a {
   line-height: 21px;
 }
 
+.filter-input + label {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
