@@ -165,4 +165,8 @@ a {
   line-height: 26px;
 }
 
-
+.modal {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
