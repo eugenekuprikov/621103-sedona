@@ -84,3 +84,8 @@ a {
   line-height: 21px;
   color: #000000;
 }
+
+.feature-item-style {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
