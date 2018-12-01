@@ -225,13 +225,13 @@ a {
   color: #81b3d2;
 }
 
-.sorting-all a:focus {
-  color: #81b3d2;
+.sorting-all a:active {
+  color: #000000;
   border-bottom: none;
 }
 
-.sorting-all a:active {
-  color: #000000;
+.sorting-all .aaaaaaa {
+  color: #81b3d2;
   border-bottom: none;
 }
 
