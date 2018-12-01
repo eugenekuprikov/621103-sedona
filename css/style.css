@@ -100,3 +100,9 @@ a {
   background-color: #ffffff;
   text-align: center;
 }
+
+.interested h2 {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
