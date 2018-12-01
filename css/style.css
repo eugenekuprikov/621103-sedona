@@ -163,6 +163,12 @@ a {
   color: #ffffff;
 }
 
+.price h3 {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
