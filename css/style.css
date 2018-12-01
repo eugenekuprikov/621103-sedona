@@ -177,6 +177,16 @@ a {
   background-color: transparent;
 }
 
+.filter button {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  text-align: center;
+  vertical-align: middle; 
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
