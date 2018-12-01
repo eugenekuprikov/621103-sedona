@@ -59,3 +59,12 @@ a {
   line-height: 26px;
   color: #333333;
 }
+
+.feature-list {
+  list-style: none;
+  background-color: #ffffff;
+}
+
+.services {
+  list-style: none;
+}
