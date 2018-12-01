@@ -154,4 +154,10 @@ a {
   background-color: #81b3d2;
 }
 
+.main-footer p:first-child {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
 
