@@ -214,6 +214,13 @@ a {
   list-style: none;
 }
 
+.sorting-all a {
+  font-size: 12px;
+  line-height: 18px;
+  color: #b2b2b2;
+  border-bottom: 1px dotted #81b3d2;
+}
+
 .main-footer {
   color: #000000;
   background-color: #f9f9f9;
