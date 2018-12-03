@@ -230,7 +230,7 @@ a {
   border-bottom: none;
 }
 
-.sorting-all li:first-child a {
+.sorting-all .active a {
   color: #81b3d2;
   border-bottom: none;
 }
