@@ -113,6 +113,10 @@ a {
   list-style: none;
 }
 
+.feature-container {
+  display: flex;
+}
+
 .services {
   list-style: none;
 }
