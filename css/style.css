@@ -153,6 +153,20 @@ a {
   color: #ffffff;
 }
 
+.services {
+  list-style: none;
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  margin-top: -5px;
+  margin-left: 35px;
+  padding: 0;
+  padding-top: 164px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
