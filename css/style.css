@@ -292,6 +292,10 @@ a {
   line-height: 21px;
 }
 
+.filter-option {
+  margin-bottom: 24px;
+}
+
 .filter-input + label {
   font-size: 14px;
   line-height: 21px;
