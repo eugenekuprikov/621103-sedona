@@ -509,6 +509,11 @@ a {
   opacity: 0.9;
 }
 
+.main-footer .visited {
+  font-size: 21px;
+  line-height: 26px;
+}
+
 .footer-social {
   text-align: center;
 }
@@ -520,11 +525,6 @@ a {
 .footer-social a {
   color: #000000;
   background-color: #81b3d2;
-}
-
-.main-footer .visited {
-  font-size: 21px;
-  line-height: 26px;
 }
 
 .footer-copyright p {
