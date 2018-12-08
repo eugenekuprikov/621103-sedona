@@ -117,6 +117,21 @@ a {
   display: flex;
 }
 
+.feature-item-style {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 226px;
+  margin: 0;
+  margin-left: 35px;
+  padding: 0;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-bottom: 0;
+  padding-left: 50px;
+  background-color: #81b3d2;
+}
+
 .services {
   list-style: none;
 }
