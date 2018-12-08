@@ -350,6 +350,11 @@ a {
   color: #000000;
 }
 
+.sorting .found {
+  margin-right: 7px;
+  margin-left: 71px;
+}
+
 .sorting p {
   font-size: 12px;
   line-height: 18px;
