@@ -228,6 +228,8 @@ a {
 }
 
 .interested p {
+  padding: 0;
+  padding-bottom: 30px;
   font-size: 14px;
   line-height: 24px;
   color: #333333;
