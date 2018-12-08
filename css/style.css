@@ -218,6 +218,10 @@ a {
 }
 
 .interested h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 55px;
+  padding-bottom: 20px;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
