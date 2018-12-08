@@ -148,6 +148,11 @@ a {
   color: #000000;
 }
 
+.feature-item-style h3,
+.feature-item-style p {
+  color: #ffffff;
+}
+
 .feature-list li:nth-child(3),
 .feature-list li:nth-child(4),
 .feature-list li:nth-child(5) {
