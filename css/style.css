@@ -522,10 +522,9 @@ a {
   background-color: #81b3d2;
 }
 
-.main-footer p:first-child {
+.main-footer .visited {
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
 }
 
 .footer-copyright p {
