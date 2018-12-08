@@ -235,6 +235,14 @@ a {
   color: #333333;
 }
 
+.map {
+  width: 1200px;
+  margin: 0;
+  margin-left: 75px;
+  margin-top: -55px;
+  padding: 0;
+}
+
 .button {
   font-size: 21px;
   line-height: 26px;
