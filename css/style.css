@@ -171,6 +171,11 @@ a {
   width: 300px;
 }
 
+.view-image {
+  margin: 0;
+  padding: 0;
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
