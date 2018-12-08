@@ -519,6 +519,10 @@ a {
   line-height: 26px;
 }
 
+.footer-container {
+  display: flex;
+}
+
 .footer-social {
   text-align: center;
 }
