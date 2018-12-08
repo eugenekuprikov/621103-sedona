@@ -265,6 +265,14 @@ a {
   border: none;
 }
 
+.filter {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}
+
 .filter fieldset {
   border: none;
 }
