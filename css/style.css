@@ -530,7 +530,7 @@ a {
 }
 
 .footer-social {
-  text-align: center;
+  width: 150px;
 }
 
 .footer-social ul {
