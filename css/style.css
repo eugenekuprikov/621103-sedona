@@ -501,6 +501,9 @@ a {
 }
 
 .main-footer {
+  width: 1200px;
+  margin-top: -27px;
+  margin-left: 75px;
   color: #000000;
   background-color: #f9f9f9;
   opacity: 0.9;
