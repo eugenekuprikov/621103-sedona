@@ -428,6 +428,11 @@ a {
   color: #333333;
 }
 
+.chosen-hotels-type {
+  width: 80px;
+  margin-left: 80px;
+}
+
 .chosen-hotels-detail .button {
   font-size: 14px;
   line-height: 21px;
