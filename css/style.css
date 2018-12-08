@@ -402,7 +402,9 @@ a {
 }
 
 .chosen-hotels-item {
+  display: flex;
   background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .chosen-hotels-item h3 a {
