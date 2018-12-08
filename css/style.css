@@ -194,6 +194,21 @@ a {
   padding: 15px 40px;
 }
 
+.feature-item-extra {
+  display: flex;
+  justify-content: space-around;
+  width: 1200px;
+  margin: 0;
+  margin-left: 35px;
+  padding: 0;
+  background-color: #eeeeee;
+}
+
+.feature-item-extra .feature-item {
+  width: 256px;
+  padding: 50px 72px; 
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
