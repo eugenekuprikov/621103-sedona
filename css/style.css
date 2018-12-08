@@ -453,8 +453,8 @@ a {
 }
 
 .chosen-hotels-detail .button:active {
-  background-color: #5496bd;
   color: #94b9d2;
+  background-color: #5496bd;
 }
 
 .chosen-hotels-booking a {
