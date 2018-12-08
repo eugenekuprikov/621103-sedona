@@ -438,6 +438,8 @@ a {
 }
 
 .chosen-hotels-detail .button {
+  margin-right: 40px;
+  margin-left: 86px;
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
