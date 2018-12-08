@@ -182,6 +182,12 @@ a {
   justify-content: flex-end;
 }
 
+.feature-container-second .view-image {
+  margin: 0;
+  margin-left: 35px;
+  padding: 0;
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
