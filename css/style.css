@@ -167,6 +167,10 @@ a {
   background-color: #ffffff;
 }
 
+.services-item {
+  width: 300px;
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
