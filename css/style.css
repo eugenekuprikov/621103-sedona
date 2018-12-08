@@ -510,6 +510,12 @@ a {
 }
 
 .main-footer .visited {
+  width: 136px;
+  margin: 0;
+  margin-top: 51px;
+  margin-right: 256px;
+  margin-bottom: 54px;
+  margin-left: 132px;
   font-size: 21px;
   line-height: 26px;
 }
