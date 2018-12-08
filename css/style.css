@@ -188,6 +188,12 @@ a {
   padding: 0;
 }
 
+.feature-container-second .feature-item-style {
+  width: 320px;
+  margin: 0;
+  padding: 15px 40px;
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
