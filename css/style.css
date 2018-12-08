@@ -332,7 +332,14 @@ a {
 }
 
 .sorting {
-  background-color: #ffffff;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  background-color: #fefefe;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .sorting .found,
