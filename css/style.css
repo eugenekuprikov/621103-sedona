@@ -393,6 +393,11 @@ a {
 }
 
 .chosen-hotels-list {
+  width: 1200px;
+  margin: 0;
+  margin-left: 75px;
+  margin-bottom: 27px;
+  padding: 0;
   list-style: none;
 }
 
