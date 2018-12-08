@@ -92,6 +92,15 @@ a {
   padding: 0 70px;
 }
 
+.city-info-announce {
+  position: absolute;
+  top: -50px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+}
+
 .city-info p:first-child {
   font-size: 21px;
   line-height: 26px;
