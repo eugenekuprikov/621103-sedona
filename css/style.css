@@ -462,6 +462,20 @@ a {
   line-height: 21px;
 }
 
+.view-hotel {
+  order: -1;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 71px;
+}
+
+.hotel-and-price {
+  display: flex;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 161px;
+}
+
 .digital-rating {
   font-size: 14px;
   line-height: 21px;
