@@ -260,8 +260,8 @@ a {
 }
 
 .button:active {
-  background-color: #503e33;
   color: #928a85;
+  background-color: #503e33;
   border: none;
 }
 
