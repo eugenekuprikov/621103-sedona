@@ -285,6 +285,9 @@ a {
 }
 
 .filter ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 24px;
   list-style: none;
   line-height: 21px;
 }
