@@ -176,6 +176,12 @@ a {
   padding: 0;
 }
 
+.feature-container-second {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
 .interested {
   background-color: #ffffff;
   text-align: center;
