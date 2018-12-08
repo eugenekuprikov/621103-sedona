@@ -39,6 +39,11 @@ a {
   background-color: #ffffff;
 }
 
+.main-header-logo {
+  width: 138px;
+  height: 70px;
+}
+
 .site-navigation {
   list-style: none;
 }
