@@ -514,6 +514,11 @@ a {
   line-height: 26px;
 }
 
+.main-footer .footer-copyright p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .footer-social {
   text-align: center;
 }
@@ -525,11 +530,6 @@ a {
 .footer-social a {
   color: #000000;
   background-color: #81b3d2;
-}
-
-.footer-copyright p {
-  font-size: 14px;
-  line-height: 26px;
 }
 
 .modal {
