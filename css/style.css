@@ -481,6 +481,13 @@ a {
   margin-left: 35px;
 }
 
+.detail-book {
+  display: flex;
+  position: absolute;
+  margin-top: 74px;
+  margin-left: 155px;
+}
+
 .digital-rating {
   font-size: 14px;
   line-height: 21px;
