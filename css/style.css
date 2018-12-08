@@ -363,7 +363,12 @@ a {
 }
 
 .sorting-all {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
   list-style: none;
+  margin-top: 38px;
+  margin-bottom: 34px;
 }
 
 .sorting-all a {
