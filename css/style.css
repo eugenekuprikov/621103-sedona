@@ -356,6 +356,7 @@ a {
 }
 
 .sorting p {
+  margin-left: 60px;
   font-size: 12px;
   line-height: 18px;
   color: #000000;
