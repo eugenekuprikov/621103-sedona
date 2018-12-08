@@ -542,6 +542,19 @@ a {
   background-color: #81b3d2;
 }
 
+.footer-copyright {
+  display: flex;
+  width: 199px;
+  margin: 0;
+  margin-right: 101px;
+  margin-left: auto;
+  align-items: center; 
+}
+
+.footer-copyright p {
+  margin-right: 9px;
+}
+
 .modal {
   color: #000000;
   background-color: #ffffff;
