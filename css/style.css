@@ -81,6 +81,11 @@ a {
   margin-bottom: -86px;
 }
 
+.city-info {
+  width: 636px;
+  padding-bottom: 51px;
+}
+
 .city-info p:first-child {
   font-size: 21px;
   line-height: 26px;
