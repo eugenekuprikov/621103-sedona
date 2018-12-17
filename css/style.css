@@ -218,6 +218,10 @@ input[type="checkbox"].visually-hidden {
   color: #ffffff;
 }
 
+.feature-item-style h3 {
+  padding-top: 18px;
+}
+
 .services {
   list-style: none;
   width: 1200px;
