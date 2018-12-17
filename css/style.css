@@ -127,6 +127,27 @@ input[type="checkbox"].visually-hidden {
   position: relative;
 }
 
+.city-info:before {
+  position: absolute;
+  content: "";
+  width: 1200px;
+  height: 59px;
+  top: -95px;
+  left: -282px;
+  background-image: url("../img/intro-mask.svg");
+  background-repeat: no-repeat;
+}
+
+.city-info:after {
+  position: absolute;
+  content: "";
+  width: 1200px;
+  height: 216px;
+  top: -38px;
+  left: -282px;
+  background-image: url("../img/under-intro-mask.png");
+}
+
 .city-info p {
   text-align: center;
   padding-top: 2px;
