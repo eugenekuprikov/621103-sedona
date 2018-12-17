@@ -199,6 +199,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-item h3 {
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 10px;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
