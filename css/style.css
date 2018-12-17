@@ -275,6 +275,10 @@ input[type="checkbox"].visually-hidden {
   background-position: 0 0;
 }
 
+.services p {
+  margin-bottom: 75px;
+}
+
 .view-image {
   margin: 0;
   padding: 0;
