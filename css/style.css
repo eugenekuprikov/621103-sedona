@@ -80,7 +80,9 @@ input[type="checkbox"].visually-hidden {
 
 .site-navigation a {
   display: block;
-  padding: 15px 0;
+  padding: 0;
+  padding-top: 14px;
+  padding-bottom: 16px;
   vertical-align: middle;
   color: #000000;
 }
