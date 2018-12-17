@@ -239,6 +239,12 @@ input[type="checkbox"].visually-hidden {
   width: 300px;
 }
 
+.services-item h3 {
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 10px;
+}
+
 .view-image {
   margin: 0;
   padding: 0;
