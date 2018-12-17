@@ -64,6 +64,9 @@ input[type="checkbox"].visually-hidden {
 .main-header-logo {
   width: 138px;
   height: 70px;
+  position: absolute;
+  left: 50%;
+  margin-left: -69px;
 }
 
 .site-navigation {
