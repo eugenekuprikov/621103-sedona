@@ -319,8 +319,12 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-item-extra .feature-item {
-  width: 256px;
-  padding: 50px 72px; 
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-left: 60px; 
 }
 
 .interested {
