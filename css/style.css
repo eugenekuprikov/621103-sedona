@@ -124,6 +124,7 @@ input[type="checkbox"].visually-hidden {
 
 .city-info {
   width: 636px;
+  position: relative;
 }
 
 .city-info p {
@@ -669,19 +670,3 @@ input[type="checkbox"].visually-hidden {
   background-color: #5496bd;
 }
 
-/*Позиционирование для маски*/
-
-.city-info {
-  position: relative;
-  top: 47px;
-}
-
-.intro-mask {
-  margin-top: -147px;
-  margin-left: -352px;
-}
-
-.under-intro-mask {
-  margin-top: -27px;
-  margin-left: -352px;
-}
