@@ -311,8 +311,10 @@ input[type="checkbox"].visually-hidden {
   justify-content: space-around;
   width: 1200px;
   margin: 0;
+  margin-top: -6px;
   margin-left: 35px;
   padding: 0;
+  padding-bottom: 40px;
   background-color: #eeeeee;
 }
 
