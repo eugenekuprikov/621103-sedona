@@ -79,6 +79,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .site-navigation a {
+  display: block;
+  padding: 15px 0;
+  vertical-align: middle;
   color: #000000;
 }
 
