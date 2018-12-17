@@ -87,6 +87,17 @@ input[type="checkbox"].visually-hidden {
   color: #000000;
 }
 
+.site-navigation li:first-child,
+.site-navigation li:nth-child(2) {
+  margin-left: 71px;
+  margin-right: 77px;
+}
+
+.site-navigation li:nth-child(3) {
+  margin-left: 311px;
+  margin-right: 165px;
+}
+
 .site-navigation a:hover {
   color: #81b3d2;
 }
