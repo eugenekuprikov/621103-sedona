@@ -392,11 +392,11 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
-.button:hover {
+.interested .button:hover {
   background-color: #604e43;
 }
 
-.button:active {
+.interested .button:active {
   color: #928a85;
   background-color: #503e33;
   border: none;
