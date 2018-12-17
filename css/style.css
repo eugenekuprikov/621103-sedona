@@ -120,7 +120,6 @@ input[type="checkbox"].visually-hidden {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: -86px;
 }
 
 .city-info {
