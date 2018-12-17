@@ -345,6 +345,7 @@ input[type="checkbox"].visually-hidden {
 .interested {
   width: 1200px;
   margin-top: -14px;
+  margin-bottom: 55px;
   margin-left: 75px;
   background-color: #ffffff;
   text-align: center;
