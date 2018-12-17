@@ -46,8 +46,9 @@ input[type="checkbox"].visually-hidden {
 
 .main-header {
   width: 1200px;
-  height: 56px;
-  margin: 0 auto; 
+  margin: 0;
+  margin-left: 75px;
+  margin-bottom: 62px; 
 }
 
 .main-navigation {
