@@ -297,10 +297,13 @@ input[type="checkbox"].visually-hidden {
   padding: 0;
 }
 
-.feature-container-second .feature-item-style {
-  width: 320px;
-  margin: 0;
-  padding: 15px 40px;
+.feature-container-second .feature-item-style p {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.feature-container-second .feature-item-style h3 {
+  padding-top: 16px;
 }
 
 .feature-item-extra {
