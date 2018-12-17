@@ -156,18 +156,22 @@ input[type="checkbox"].visually-hidden {
 }
 
 .city-info-announce {
+  position: relative;
   margin-bottom: 25px;
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
   color: #000000;
+  z-index: 2;
 }
 
-.city-info-reasons { 
+.city-info-reasons {
+  position: relative;
   margin-bottom: 36px;
   font-size: 14px;
   line-height: 26px;
   color: #333333;
+  z-index: 2;
 }
 
 .feature-list {
