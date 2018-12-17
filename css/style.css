@@ -354,8 +354,9 @@ input[type="checkbox"].visually-hidden {
 .interested h2 {
   margin: 0;
   padding: 0;
-  padding-top: 55px;
-  padding-bottom: 20px;
+  padding-top: 48px;
+  margin-bottom: 25px;
+  padding-left: 1px;
   font-size: 30px;
   line-height: 36px;
   color: #000000;
