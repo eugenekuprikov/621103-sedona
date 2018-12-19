@@ -893,6 +893,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .digital-rating {
+  padding: 3px 13px;
   font-size: 14px;
   line-height: 21px;
   color: #666666;
