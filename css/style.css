@@ -684,6 +684,66 @@ input[type="checkbox"].visually-hidden {
   border-bottom: none;
 }
 
+.triangle-sorting {
+  display: inline-block;
+  list-style: none;
+  width: 537px;
+  height: 9px;
+  margin: 0;
+  padding: 0;
+}
+
+.triangle-sorting-up {
+  width: 1px;
+  margin-left: 502px;
+}
+
+.triangle-sorting-up::before {
+  content: "";
+  position: absolute;
+  right: 73px;
+  bottom: 37px;
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/icon-down-dir.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.triangle-sorting-up:hover::before {
+  background-image: url("../img/icon-down-dir-hover.svg");
+}
+
+.triangle-sorting-up:active::before {
+  background-image: url("../img/icon-down-dir.svg");
+}
+
+.triangle-sorting-down {
+  width: 1px;
+  margin-left: 525px;
+  margin-top: -12px;
+}
+
+.triangle-sorting-down::before {
+  content: "";
+  position: absolute;
+  right: 96px;
+  bottom: 37px;
+  width: 11px;
+  height: 10px;
+  background-image: url("../img/icon-up-dir.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.triangle-sorting-down:hover::before {
+  background-image: url("../img/icon-up-dir-hover.svg");
+}
+
+.triangle-sorting-down:active::before {
+  background-image: url("../img/icon-up-dir-active.svg");
+}
+
 .chosen-hotels-list {
   width: 1200px;
   margin: 0;
