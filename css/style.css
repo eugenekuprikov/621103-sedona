@@ -454,6 +454,12 @@ input[type="checkbox"].visually-hidden {
   padding-left: 40px;
 }
 
+.filter-option label {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
 .filter-input + label {
   font-size: 14px;
   line-height: 21px;
