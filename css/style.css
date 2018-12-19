@@ -479,6 +479,26 @@ input[type="checkbox"].visually-hidden {
   border: 2px solid #6a6a6a;
 }
 
+.filter-input-checkbox:checked + label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40px;
+  width: 27px;
+  height: 27px;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.filter-input-checkbox:checked:hover + label::after {
+  background-image: url("../img/checkbox-on.svg");
+}
+
+.filter-input-checkbox:checked:disabled + label::after {
+  background-image: url("../img/checkbox-on-disabled.svg");
+}
+
 .filter-input + label {
   font-size: 14px;
   line-height: 21px;
