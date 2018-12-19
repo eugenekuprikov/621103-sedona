@@ -861,6 +861,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .chosen-hotels-rating {
+  margin-top: 15px;
   margin-right: 73px;
   margin-left: auto;
 }
