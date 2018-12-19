@@ -934,6 +934,13 @@ input[type="checkbox"].visually-hidden {
 }
 
 .footer-social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 36px;
+  padding: 0;
   list-style: none;
 }
 
