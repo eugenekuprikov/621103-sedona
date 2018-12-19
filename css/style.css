@@ -401,6 +401,10 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
+.inner-page .main-header {
+  margin-bottom: 27px;
+}
+
 .filter {
   display: flex;
   width: 1200px;
