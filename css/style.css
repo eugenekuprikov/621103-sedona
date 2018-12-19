@@ -825,6 +825,15 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
+.chosen-hotels-booking .button:hover {
+  background-color: #604e43;
+}
+
+.chosen-hotels-booking .button:active {
+  color: #928a85;
+  background-color: #503e33;
+}
+
 .view-hotel {
   order: -1;
   margin-top: 30px;
