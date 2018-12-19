@@ -983,6 +983,20 @@ input[type="checkbox"].visually-hidden {
   margin-right: 9px;
 }
 
+.main-footer-logo {
+  width: 114px;
+  height: 39px;
+  background-image: url("../img/logo-htmlacademy.svg");
+}
+
+.main-footer-logo:hover {
+  background-image: url("../img/logo-htmlacademy-hover.svg");
+}
+
+.main-footer-logo:active {
+  background-image: url("../img/logo-htmlacademy-active.svg");
+}
+
 .modal {
   color: #000000;
   background-color: #ffffff;
