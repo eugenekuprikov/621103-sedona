@@ -866,6 +866,32 @@ input[type="checkbox"].visually-hidden {
   margin-left: auto;
 }
 
+.chosen-hotels-rating .stars-1,
+.chosen-hotels-rating .stars-2,
+.chosen-hotels-rating .stars-3 {
+  display: flex;
+  height: 17px;
+  margin-bottom: 47px;
+}
+
+.chosen-hotels-rating .stars-1 {
+  background: url("../img/star.svg") no-repeat 20px 0,
+              url("../img/star.svg") no-repeat 43px 0,
+              url("../img/star.svg") no-repeat 68px 0,
+              url("../img/star.svg") no-repeat 91px 0;
+}
+
+.chosen-hotels-rating .stars-2 {
+  background: url("../img/star.svg") no-repeat 44px 0,
+              url("../img/star.svg") no-repeat 68px 0,
+              url("../img/star.svg") no-repeat 91px 0;
+}
+
+.chosen-hotels-rating .stars-3 {
+  background: url("../img/star.svg") no-repeat 68px 0,
+              url("../img/star.svg") no-repeat 91px 0;
+}
+
 .digital-rating {
   font-size: 14px;
   line-height: 21px;
