@@ -417,6 +417,14 @@ input[type="checkbox"].visually-hidden {
   margin-bottom: -1px;
 }
 
+.filter .structure {
+  margin-left: 136px;
+}
+
+.filter .filter-container-1 {
+  margin-left: 91px;
+}
+
 .filter fieldset {
   border: none;
 }
