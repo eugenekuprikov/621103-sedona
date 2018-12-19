@@ -450,7 +450,8 @@ input[type="checkbox"].visually-hidden {
 }
 
 .filter-option {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
+  padding-left: 40px;
 }
 
 .filter-input + label {
