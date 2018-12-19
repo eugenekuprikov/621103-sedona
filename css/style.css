@@ -403,7 +403,6 @@ input[type="checkbox"].visually-hidden {
 
 .filter {
   display: flex;
-  justify-content: space-between;
   width: 1200px;
   margin: 0;
   padding: 0;
@@ -695,6 +694,7 @@ input[type="checkbox"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
+  display: none;
 }
 
 .date-info input[type="text"],
