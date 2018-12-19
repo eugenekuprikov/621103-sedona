@@ -499,40 +499,13 @@ input[type="checkbox"].visually-hidden {
   background-image: url("../img/checkbox-on-disabled.svg");
 }
 
-.filter-input + label {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
-}
 
-.price h3 {
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-}
 
-.price p {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background-color: transparent;
-}
 
-.filter button {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  text-align: center;
-  vertical-align: middle; 
-}
 
-.filter button:hover {
-  color: #000000;
-  background-color: #ffffff;
-}
+
+
+
 
 .sorting {
   width: 1200px;
