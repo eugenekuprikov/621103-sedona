@@ -642,6 +642,10 @@ input[type="checkbox"].visually-hidden {
   margin-left: 71px;
 }
 
+.sorting .result {
+  margin-top: -2px;
+}
+
 .sorting p {
   margin-left: 60px;
   font-size: 12px;
