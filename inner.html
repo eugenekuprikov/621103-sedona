@@ -63,10 +63,20 @@
         </ul>
       </fieldset>
       <div class="price">
-        <h3>Стоимость в сутки (Р):</h3>
-        <p>От 0</p>
-        <p>До 3000</p>
-        <input type="range" name="cost-per-day" min="0" max="3000" step="100" value="2500">
+        <div class="price-title">
+          <h3>Стоимость в сутки (Р):</h3>
+        </div>
+        <div class="price-controls">
+          <label class="min-price">От <input type="text" name="min-price" value="0"></label>
+          <label class="max-price">До <input type="text" name="max-price" value="3000"></label>
+        </div>
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
         <button type="submit" class="filter-button">Показать</button>
       </div>
     </form>
