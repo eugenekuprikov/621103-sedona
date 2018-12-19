@@ -856,8 +856,8 @@ input[type="checkbox"].visually-hidden {
 .detail-book {
   display: flex;
   position: absolute;
-  margin-top: 74px;
-  margin-left: 155px;
+  margin-top: 82px;
+  margin-left: 152px;
 }
 
 .chosen-hotels-rating {
