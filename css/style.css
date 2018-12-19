@@ -412,6 +412,11 @@ input[type="checkbox"].visually-hidden {
   padding: 0;
 }
 
+.filter .filter-container {
+  margin-left: 135px;
+  margin-bottom: -1px;
+}
+
 .filter fieldset {
   border: none;
 }
