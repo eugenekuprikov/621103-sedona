@@ -790,8 +790,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .chosen-hotels-detail .button {
-  margin-right: 40px;
+  margin-right: 6px;
   margin-left: 86px;
+  padding: 5px 16px;
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
