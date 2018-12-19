@@ -997,6 +997,10 @@ input[type="checkbox"].visually-hidden {
   background-image: url("../img/logo-htmlacademy-active.svg");
 }
 
+.inner-page .main-footer {
+  margin-top: -27px;
+}
+
 .modal {
   color: #000000;
   background-color: #ffffff;
