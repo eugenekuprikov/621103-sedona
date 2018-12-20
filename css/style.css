@@ -1089,6 +1089,17 @@ input[type="checkbox"].visually-hidden {
   background-repeat: no-repeat;
 }
 
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.people-quantity {
+  padding-top: 1px;
+}
+
 .people-quantity button {
   font-size: 14px;
   line-height: 26px;
