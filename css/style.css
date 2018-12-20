@@ -1032,6 +1032,14 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
+.date-info input[type="text"] {
+  box-sizing: border-box;
+  width: 345px;
+  margin-left: 5px;
+  padding: 5px 12px;
+  padding-right: 40px;
+}
+
 .date-info label,
 .people-quantity label {
   font-size: 14px;
