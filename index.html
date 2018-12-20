@@ -150,18 +150,20 @@
           <label for="departure-date">Дата выезда:</label>
           <input class="calendar-2" id="departure-date" type="text" name="date-out" value="" placeholder="4 июля 2017">
         </p>
-        <p class="people-quantity">
-          <label for="quantity-adults">Взрослые:</label>
-          <button type="button" name="subtract">-</button>
-          <input id="quantity-adults" type="text" name="number-adults" value="2">
-          <button type="button" name="add">+</button>
-        </p>
-        <p class="people-quantity">
-          <label for="quantity-children">Дети:</label>
-          <button type="button" name="subtract">-</button>
-          <input id="quantity-children" type="text" name="number-children" value="0">
-          <button type="button" name="add">+</button>
-        </p>
+        <div class="people">
+          <p class="people-quantity">
+            <label for="quantity-adults">Взрослые:</label>
+            <button type="button" name="subtract">&ndash;</button>
+            <input id="quantity-adults" type="text" name="number-adults" value="2">
+            <button type="button" name="add">+</button>
+          </p>
+          <p class="people-quantity">
+            <label for="quantity-children">Дети:</label>
+            <button type="button" name="subtract">&ndash;</button>
+            <input id="quantity-children" type="text" name="number-children" value="0">
+            <button type="button" name="add">+</button>
+          </p>
+        </div>
         <button type="submit" class="button">Найти</button>
       </form>
     </section>
