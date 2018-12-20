@@ -1016,6 +1016,11 @@ input[type="checkbox"].visually-hidden {
   padding: 56px;
 }
 
+.search-form p {
+  margin: 0;
+  margin-bottom: 31px;
+}
+
 .date-info input[type="text"],
 .people-quantity input[type="text"] {
   color: #000000;
