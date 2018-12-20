@@ -1008,6 +1008,14 @@ input[type="checkbox"].visually-hidden {
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
+.modal-search {
+  top: 27px;
+  left: 50%;
+  width: 458px;
+  margin-left: -285px;
+  padding: 56px;
+}
+
 .date-info input[type="text"],
 .people-quantity input[type="text"] {
   color: #000000;
