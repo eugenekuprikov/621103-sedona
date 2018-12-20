@@ -1043,8 +1043,8 @@ input[type="checkbox"].visually-hidden {
 .date-info label,
 .people-quantity label {
   font-size: 14px;
-  line-height: 26px;
   font-weight: bold;
+  line-height: 26px;
   text-transform: uppercase;
   color: #000000;
 }
