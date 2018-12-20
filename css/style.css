@@ -1049,6 +1049,16 @@ input[type="checkbox"].visually-hidden {
   color: #000000;
 }
 
+.date-info:first-child label {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.date-info:nth-child(2) label {
+  display: inline-block;
+  padding-right: 12px;
+}
+
 .date-info input:hover {
   background-color: #ebebeb;
 }
