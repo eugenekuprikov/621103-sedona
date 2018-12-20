@@ -1002,10 +1002,10 @@ input[type="checkbox"].visually-hidden {
 }
 
 .modal {
+  position: fixed;
   color: #000000;
   background-color: #ffffff;
-  text-align: center;
-  display: none;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .date-info input[type="text"],
