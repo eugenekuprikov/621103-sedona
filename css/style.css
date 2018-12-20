@@ -1126,6 +1126,14 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
+.people-quantity:first-child label {
+  padding-right: 35px;
+}
+
+.people-quantity:nth-child(2) label {
+  padding-right: 20px;
+}
+
 .people-quantity button:hover {
   color: #000000;
 }
