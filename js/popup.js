@@ -18,30 +18,30 @@ try {
 }
 
 btn.addEventListener("click", function() {
-	popup.classList.toggle("modal-show");
-	popup.classList.remove("modal-error");
+  popup.classList.toggle("modal-show");
+  popup.classList.remove("modal-error");
 
-	if (storage) {
-          adults.value = storage;
-          children.value = storage;
-    }
+  if (storage) {
+    adults.value = storage;
+    children.value = storage;
+  }
 
-	arrival.focus();
+  arrival.focus();
 });
 
 form.addEventListener("submit", function (evt) {
-	if (!arrival.value || !departure.value || !adults.value || !children.value) {
-          evt.preventDefault();
-          console.log("Нужно ввести дату въезда, выезда, количество взрослых и детей");
-    	  popup.classList.remove("modal-error");
-          popup.offsetWidth = popup.offsetWidth;
-    	  popup.classList.add("modal-error");
-    } else {
-      if (isStorageSupport) {
-        localStorage.setItem("adults", adults.value);
-        localStorage.setItem("children", children.value);
-      }
+  if (!arrival.value || !departure.value || !adults.value || !children.value) {
+    evt.preventDefault();
+    console.log("Нужно ввести дату въезда, выезда, количество взрослых и детей");
+    popup.classList.remove("modal-error");
+    popup.offsetWidth = popup.offsetWidth;
+    popup.classList.add("modal-error");
+  } else {
+    if (isStorageSupport) {
+      localStorage.setItem("adults", adults.value);
+      localStorage.setItem("children", children.value);
     }
+  }
 });
 
 window.addEventListener("keydown", function (evt) {
