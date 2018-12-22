@@ -1001,6 +1001,16 @@ input[type="checkbox"].visually-hidden {
   margin-top: -27px;
 }
 
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
 .modal {
   position: fixed;
   color: #000000;
