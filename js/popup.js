@@ -19,6 +19,7 @@ try {
 
 btn.addEventListener("click", function() {
 	popup.classList.toggle("modal-show");
+	popup.classList.remove("modal-error");
 
 	if (storage) {
           adults.value = storage;
