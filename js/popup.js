@@ -11,5 +11,5 @@ btn.addEventListener("click", function() {
 });
 
 form.addEventListener("submit", function (evt) {
-	
+	evt.preventDefault();
 });
