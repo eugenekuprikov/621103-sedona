@@ -1041,6 +1041,10 @@ input[type="checkbox"].visually-hidden {
   animation: appearance 0.6s;
 }
 
+.modal-error {
+  animation: blinking 0.6s;
+}
+
 .modal-search {
   top: 27px;
   left: 50%;
