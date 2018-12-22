@@ -1009,6 +1009,10 @@ input[type="checkbox"].visually-hidden {
   display: none;
 }
 
+.modal-show {
+  display: block;
+}
+
 .modal-search {
   top: 27px;
   left: 50%;
