@@ -7,6 +7,16 @@ var departure = popup.querySelector("[name=date-out]");
 var adults = popup.querySelector("[name=number-adults]");
 var children = popup.querySelector("[name=number-children]");
 
+var isStorageSupport = true;
+var storage = "";
+  
+try {
+  storage = localStorage.getItem("adults");
+  storage = localStorage.getItem("children");
+} catch (err) {
+  isStorageSupport = false;
+}
+
 btn.addEventListener("click", function() {
 	popup.classList.toggle("modal-show");
 
