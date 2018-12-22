@@ -9,3 +9,7 @@ btn.addEventListener("click", function() {
 
 	arrival.focus();
 });
+
+form.addEventListener("submit", function (evt) {
+	
+});
