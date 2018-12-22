@@ -6,4 +6,6 @@ var arrival = popup.querySelector("[name=date-in]");
 
 btn.addEventListener("click", function() {
 	popup.classList.toggle("modal-show");
+
+	arrival.focus();
 });
