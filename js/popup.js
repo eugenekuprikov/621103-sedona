@@ -20,6 +20,11 @@ try {
 btn.addEventListener("click", function() {
 	popup.classList.toggle("modal-show");
 
+	if (storage) {
+          adults.value = storage;
+          children.value = storage;
+    }
+
 	arrival.focus();
 });
 
