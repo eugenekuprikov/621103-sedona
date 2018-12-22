@@ -14,5 +14,8 @@ btn.addEventListener("click", function() {
 });
 
 form.addEventListener("submit", function (evt) {
-	evt.preventDefault();
+	if (!arrival.value || !departure.value || !adults.value || !children.value) {
+          evt.preventDefault();
+          console.log("Нужно ввести дату въезда, выезда, количество взрослых и детей");
+    }
 });
