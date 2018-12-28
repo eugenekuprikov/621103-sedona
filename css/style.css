@@ -47,7 +47,8 @@ input[type="checkbox"].visually-hidden {
 .main-header {
   width: 1200px;
   margin: 0;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 62px; 
 }
 
@@ -172,6 +173,12 @@ input[type="checkbox"].visually-hidden {
   line-height: 26px;
   color: #333333;
   z-index: 2;
+}
+
+.features {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .feature-list {
@@ -345,8 +352,9 @@ input[type="checkbox"].visually-hidden {
 .interested {
   width: 1200px;
   margin-top: -16px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 55px;
-  margin-left: 75px;
   background-color: #ffffff;
   text-align: center;
 }
@@ -373,8 +381,9 @@ input[type="checkbox"].visually-hidden {
 .map {
   width: 1200px;
   margin: 0;
-  margin-left: 75px;
   margin-top: -55px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }
 
@@ -402,6 +411,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .inner-page .main-header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 27px;
 }
 
@@ -409,6 +421,8 @@ input[type="checkbox"].visually-hidden {
   display: flex;
   width: 1200px;
   margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
 }
 
@@ -622,7 +636,8 @@ input[type="checkbox"].visually-hidden {
   align-items: center;
   margin: 0;
   margin-top: -2px;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   background-color: #fefefe;
   border-bottom: 1px solid #e5e5e5;
@@ -747,7 +762,8 @@ input[type="checkbox"].visually-hidden {
 .chosen-hotels-list {
   width: 1200px;
   margin: 0;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 27px;
   padding: 0;
   list-style: none;
@@ -903,7 +919,8 @@ input[type="checkbox"].visually-hidden {
 .main-footer {
   width: 1200px;
   margin-top: -120px;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
   color: #000000;
   background-color: #f9f9f9;
   opacity: 0.9;
