@@ -700,11 +700,10 @@ input[type="checkbox"].visually-hidden {
 }
 
 .triangle-sorting {
-  display: inline-block;
   list-style: none;
-  width: 537px;
-  height: 9px;
+  width: 45px;
   margin: 0;
+  margin-left: 495px;
   padding: 0;
 }
 
