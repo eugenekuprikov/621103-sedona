@@ -387,6 +387,10 @@ input[type="checkbox"].visually-hidden {
   padding: 0;
 }
 
+.map iframe {
+  border: 0;
+}
+
 .interested .button {
   padding: 30px 140px;
   font-size: 21px;
