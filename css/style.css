@@ -193,7 +193,7 @@ input[type="checkbox"].visually-hidden {
   width: 300px;
   height: 226px;
   margin: 0;
-  margin-left: 35px;
+  margin-left: -40px;
   padding: 0;
   padding-top: 30px;
   padding-right: 50px;
@@ -236,7 +236,7 @@ input[type="checkbox"].visually-hidden {
   justify-content: space-around;
   margin: 0;
   margin-top: -5px;
-  margin-left: 35px;
+  margin-left: -40px;
   padding: 0;
   padding-top: 1px;
   background-color: #ffffff;
@@ -299,8 +299,8 @@ input[type="checkbox"].visually-hidden {
 
 .feature-container-second .view-image {
   margin: 0;
-  margin-left: 35px;
-  margin-right: -35px;
+  margin-left: -40px;
+  margin-right: 40px;
   padding: 0;
 }
 
@@ -319,7 +319,7 @@ input[type="checkbox"].visually-hidden {
   width: 1200px;
   margin: 0;
   margin-top: -6px;
-  margin-left: 35px;
+  margin-left: -40px;
   padding: 0;
   padding-bottom: 40px;
   background-color: #eeeeee;
