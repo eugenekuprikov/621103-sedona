@@ -128,7 +128,7 @@ input[type="checkbox"].visually-hidden {
   position: relative;
 }
 
-.city-info:before {
+.city-info::before {
   position: absolute;
   content: "";
   width: 1200px;
@@ -139,7 +139,7 @@ input[type="checkbox"].visually-hidden {
   background-repeat: no-repeat;
 }
 
-.city-info:after {
+.city-info::after {
   position: absolute;
   content: "";
   width: 1200px;
