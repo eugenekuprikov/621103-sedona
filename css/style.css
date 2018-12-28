@@ -879,9 +879,10 @@ input[type="checkbox"].visually-hidden {
 
 .detail-book {
   display: flex;
-  position: absolute;
+  height: 40px;
   margin-top: 82px;
-  margin-left: 152px;
+  margin-left: -182px;
+  padding-top: 0;
 }
 
 .chosen-hotels-rating {
