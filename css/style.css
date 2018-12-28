@@ -867,9 +867,9 @@ input[type="checkbox"].visually-hidden {
 
 .hotel-and-price {
   display: flex;
-  position: absolute;
-  margin-top: 44px;
-  margin-left: 156px;
+  height: 20px;
+  margin-top: 57px;
+  margin-left: -226px;
 }
 
 .chosen-hotels-title {
