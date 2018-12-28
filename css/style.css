@@ -708,12 +708,12 @@ input[type="checkbox"].visually-hidden {
   padding: 0;
 }
 
-.triangle-sorting-up {
+.triangle-sorting-down {
   width: 1px;
   margin-left: 502px;
 }
 
-.triangle-sorting-up::before {
+.triangle-sorting-down a::before {
   content: "";
   position: absolute;
   right: 73px;
@@ -725,21 +725,21 @@ input[type="checkbox"].visually-hidden {
   background-position: 0 0;
 }
 
-.triangle-sorting-up:hover::before {
+.triangle-sorting-down a:hover::before {
   background-image: url("../img/icon-down-dir-hover.svg");
 }
 
-.triangle-sorting-up:active::before {
+.triangle-sorting-down a:active::before {
   background-image: url("../img/icon-down-dir.svg");
 }
 
-.triangle-sorting-down {
+.triangle-sorting-up {
   width: 1px;
   margin-left: 525px;
   margin-top: -12px;
 }
 
-.triangle-sorting-down::before {
+.triangle-sorting-up a::before {
   content: "";
   position: absolute;
   right: 96px;
@@ -751,11 +751,11 @@ input[type="checkbox"].visually-hidden {
   background-position: 0 0;
 }
 
-.triangle-sorting-down:hover::before {
+.triangle-sorting-up a:hover::before {
   background-image: url("../img/icon-up-dir-hover.svg");
 }
 
-.triangle-sorting-down:active::before {
+.triangle-sorting-up a:active::before {
   background-image: url("../img/icon-up-dir-active.svg");
 }
 
