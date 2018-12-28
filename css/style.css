@@ -734,9 +734,12 @@ input[type="checkbox"].visually-hidden {
 }
 
 .triangle-sorting-up {
-  width: 1px;
-  margin-left: 525px;
-  margin-top: -12px;
+  display: inline-block;
+  position: relative;
+  width: 11px;
+  height: 10px;
+  top: 3px;
+  left: 10px;
 }
 
 .triangle-sorting-up a::before {
