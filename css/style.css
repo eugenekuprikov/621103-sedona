@@ -873,8 +873,11 @@ input[type="checkbox"].visually-hidden {
 }
 
 .chosen-hotels-title {
+  min-width: 225px;
+  height: 26px;
+  margin: 0;
   margin-top: 25px;
-  margin-left: 32px;
+  margin-left: 31px;
 }
 
 .detail-book {
