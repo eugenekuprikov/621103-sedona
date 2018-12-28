@@ -798,6 +798,7 @@ input[type="checkbox"].visually-hidden {
 
 .chosen-hotels-type,
 .chosen-hotels-price {
+  margin: 0;
   font-size: 14px;
   line-height: 21px;
   color: #333333;
