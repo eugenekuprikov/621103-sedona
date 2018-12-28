@@ -527,7 +527,7 @@ input[type="checkbox"].visually-hidden {
 
 .price-controls {
   position: relative;
-  height: 32px;
+  height: 33px;
   margin-top: -9px;
   margin-bottom: 20px;
   font-size: 0;
