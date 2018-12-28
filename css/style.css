@@ -316,6 +316,7 @@ input[type="checkbox"].visually-hidden {
 .feature-item-extra {
   display: flex;
   justify-content: space-around;
+  list-style: none;
   width: 1200px;
   margin: 0;
   margin-top: -6px;
