@@ -657,18 +657,13 @@ input[type="checkbox"].visually-hidden {
 }
 
 .sorting .found {
-  margin-top: -2px;
   margin-right: 6px;
   margin-left: 71px;
 }
 
-.sorting .result {
-  margin-top: -2px;
-}
-
 .sorting p {
-  padding-top: 4px;
-  margin-left: 48px;
+  padding-top: 6px;
+  margin-left: 46px;
   font-size: 12px;
   line-height: 18px;
   color: #000000;
