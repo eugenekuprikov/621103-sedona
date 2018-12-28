@@ -745,8 +745,6 @@ input[type="checkbox"].visually-hidden {
 .triangle-sorting-up a::before {
   content: "";
   position: absolute;
-  right: 96px;
-  bottom: 37px;
   width: 11px;
   height: 10px;
   background-image: url("../img/icon-up-dir.svg");
