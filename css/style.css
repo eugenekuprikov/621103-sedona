@@ -708,8 +708,12 @@ input[type="checkbox"].visually-hidden {
 }
 
 .triangle-sorting-down {
-  width: 1px;
-  margin-left: 502px;
+  display: inline-block;
+  position: relative;
+  width: 11px;
+  height: 10px;
+  top: 3px;
+  left: 17px;
 }
 
 .triangle-sorting-down a::before {
