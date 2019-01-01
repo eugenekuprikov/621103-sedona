@@ -21,6 +21,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.shadow {
+  display: block;
+  width: 1200px;
+  margin: 0 auto;
+  z-index: -1;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
+}
+
 a {
   text-decoration: none;
 }
