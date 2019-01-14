@@ -1149,25 +1149,31 @@ input[type="checkbox"].visually-hidden {
   border-color: #e5e5e5;
 }
 
-.calendar-1,
-.calendar-2 {
-  background-image: url("../img/calendar-normal.jpg");
-  background-position: 315px center;
+.calendar-normal,
+.calendar-normal-1 {
+  position: absolute;
+  border: none;
+  top: 62px;
+  right: 65px;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.calendar-normal-1 { 
+  top: 130px;
+}
+
+.date-info button[type="button"]:hover {
+  background-image: url("../img/calendar-hover.png");
+  background-position: 0 0;
   background-repeat: no-repeat;
 }
 
-.calendar-1:hover,
-.calendar-2:hover {
-  background-image: url("../img/calendar-hover.jpg");
-  background-position: 315px center;
+.date-info button[type="button"]:active {
+  background-image: url("../img/calendar-active.png");
+  background-position: 0 0;
   background-repeat: no-repeat;
-}
-
-.calendar-1:active,
-.calendar-2:active {
-  background-image: url("../img/calendar-active.jpg");
-  background-position: 315px center;
-  background-repeat: no-repeat;
+  border: none;
 }
 
 .people {
