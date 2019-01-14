@@ -718,7 +718,8 @@ input[type="checkbox"].visually-hidden {
   list-style: none;
   width: 45px;
   margin: 0;
-  margin-left: 495px;
+  margin-right: 70px;
+  margin-left: auto;
   padding: 0;
 }
 
