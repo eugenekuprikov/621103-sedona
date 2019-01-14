@@ -959,6 +959,7 @@ input[type="checkbox"].visually-hidden {
   margin-bottom: 48px;
   margin-left: 132px;
   font-size: 21px;
+  font-weight: bold;
   line-height: 26px;
 }
 
