@@ -907,31 +907,39 @@ input[type="checkbox"].visually-hidden {
 .chosen-hotels-rating .stars-4,
 .chosen-hotels-rating .stars-3,
 .chosen-hotels-rating .stars-2 {
-  display: flex;
   height: 17px;
   margin-bottom: 47px;
 }
 
 .chosen-hotels-rating .stars-4 {
-  background: url("../img/star.svg") no-repeat 20px 0,
-              url("../img/star.svg") no-repeat 43px 0,
-              url("../img/star.svg") no-repeat 68px 0,
-              url("../img/star.svg") no-repeat 91px 0;
+  width: 89px;
+  margin-left: 14px;
+  background-image: url("../img/star.svg");
+  background-repeat: space;
+  background-position: 0 0;
 }
 
 .chosen-hotels-rating .stars-3 {
-  background: url("../img/star.svg") no-repeat 44px 0,
-              url("../img/star.svg") no-repeat 68px 0,
-              url("../img/star.svg") no-repeat 91px 0;
+  width: 66px;
+  margin-left: 37px;
+  background-image: url("../img/star.svg");
+  background-repeat: space;
+  background-position: 0 0;
 }
 
 .chosen-hotels-rating .stars-2 {
-  background: url("../img/star.svg") no-repeat 68px 0,
-              url("../img/star.svg") no-repeat 91px 0;
+  width: 42px;
+  margin-left: 60px;
+  background-image: url("../img/star.svg");
+  background-repeat: space;
+  background-position: 0 0;
 }
 
 .digital-rating {
-  padding: 3px 13px;
+  margin-left: -7px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 14px;
   font-size: 14px;
   line-height: 21px;
   color: #666666;
