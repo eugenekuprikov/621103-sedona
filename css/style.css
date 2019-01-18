@@ -1088,7 +1088,7 @@ input[type="checkbox"].visually-hidden {
   color: #000000;
   background-color: #ffffff;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
-  /*display: none;*/
+  display: none;
   z-index: 5;
 }
 
