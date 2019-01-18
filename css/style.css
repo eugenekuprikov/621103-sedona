@@ -972,7 +972,7 @@ input[type="checkbox"].visually-hidden {
   width: 136px;
   margin: 0;
   margin-top: 46px;
-  margin-right: 256px;
+  margin-right: 144px;
   margin-bottom: 48px;
   margin-left: 132px;
   font-size: 21px;
@@ -990,17 +990,14 @@ input[type="checkbox"].visually-hidden {
 }
 
 .footer-social {
-  width: 150px;
-}
-
-.footer-social ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 150px;
+  min-width: 150px;
   margin: 0 auto;
   margin-top: 36px;
   padding: 0;
+  padding-right: 1px;
   list-style: none;
 }
 
