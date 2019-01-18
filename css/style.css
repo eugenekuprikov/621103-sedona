@@ -585,6 +585,7 @@ input[type="checkbox"].visually-hidden {
 
 .price-controls input {
   width: 50px;
+  height: 37px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -1127,10 +1128,13 @@ input[type="checkbox"].visually-hidden {
 
 .date-info input[type="text"] {
   box-sizing: border-box;
-  width: 345px;
-  margin-left: 8px;
-  padding: 5px 12px;
-  padding-right: 40px;
+  width: 342px;
+  height: 36px;
+  margin-left: 12px;
+  padding-top: 5px;
+  padding-right: 52px;
+  padding-bottom: 5px;
+  padding-left: 13px;
 }
 
 .date-info label,
@@ -1144,13 +1148,13 @@ input[type="checkbox"].visually-hidden {
 
 .date-info:nth-child(2) label {
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 7px;
   padding-left: 2px;
 }
 
 .date-info:nth-child(3) label {
   display: inline-block;
-  padding-right: 7px;
+  padding-right: 3px;
   padding-left: 2px;
 }
 
