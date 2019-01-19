@@ -124,6 +124,10 @@ input[type="checkbox"].visually-hidden {
   color: #cacaca;
 }
 
+.site-navigation-current a {
+  color: #766357;
+}
+
 .city-wrapper {
   display: flex;
   flex-direction: column;
