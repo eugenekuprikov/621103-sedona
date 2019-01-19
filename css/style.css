@@ -506,18 +506,23 @@ input[type="checkbox"].visually-hidden {
   position: absolute;
   left: -40px;
   top: 0;
-  width: 18px;
-  height: 18px;
-  border: 2px solid #ffffff;
-  border-radius: 2px;
+  width: 23px;
+  height: 23px;
+  background-image: url("../img/checkbox-off.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .filter-input-checkbox:hover + label::before {
-  border: 2px solid #ffffff;
+  background-image: url("../img/checkbox-off.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .filter-input-checkbox:disabled + label::before {
-  border: 2px solid #6a6a6a;
+  background-image: url("../img/checkbox-off-disabled.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .filter-input-checkbox:checked + label::after {
