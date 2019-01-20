@@ -25,6 +25,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   z-index: -1;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
@@ -46,6 +47,7 @@ input[type="checkbox"].visually-hidden {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  -webkit-clip-path: inset(100%);
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -71,6 +73,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .main-navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   font-size: 14px;
@@ -89,7 +94,12 @@ input[type="checkbox"].visually-hidden {
 }
 
 .site-navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 100%;
   margin: 0;
@@ -136,8 +146,18 @@ input[type="checkbox"].visually-hidden {
 }
 
 .city-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -212,6 +232,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background-image: url("../img/sedona-view-1.jpg");
   background-position: 400px 0;
@@ -262,7 +285,12 @@ input[type="checkbox"].visually-hidden {
 .services {
   list-style: none;
   width: 1200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   margin: 0;
   margin-top: 1px;
@@ -318,8 +346,18 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-container-second {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   background-image: url("../img/sedona-view-2.jpg");
   background-position: 0 0;
@@ -341,7 +379,12 @@ input[type="checkbox"].visually-hidden {
 }
 
 .feature-item-extra {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   list-style: none;
   width: 1200px;
@@ -453,6 +496,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .filter {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   width: 1200px;
   margin: 0;
@@ -591,6 +637,8 @@ input[type="checkbox"].visually-hidden {
   width: 2px;
   height: 22px;
   background: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -643,6 +691,7 @@ input[type="checkbox"].visually-hidden {
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
+  -webkit-box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
 }
@@ -680,8 +729,14 @@ input[type="checkbox"].visually-hidden {
 
 .sorting {
   width: 1200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 0;
   margin-top: -2px;
@@ -714,8 +769,14 @@ input[type="checkbox"].visually-hidden {
 }
 
 .sorting-all {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   min-width: 238px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   list-style: none;
   margin-top: 35px;
@@ -811,7 +872,14 @@ input[type="checkbox"].visually-hidden {
 }
 
 .chosen-hotels-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   width: 1200px;
   margin: 0;
@@ -823,6 +891,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .chosen-hotels-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   background-color: #ffffff;
   border-bottom: 1px solid #e5e5e5;
@@ -903,6 +974,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .view-hotel {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
   order: -1;
   margin: 0;
   margin-top: 30px;
@@ -911,6 +985,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .hotel-and-price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   height: 20px;
   margin-top: 57px;
@@ -926,6 +1003,9 @@ input[type="checkbox"].visually-hidden {
 }
 
 .detail-book {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   height: 40px;
   margin-top: 82px;
@@ -1011,12 +1091,23 @@ input[type="checkbox"].visually-hidden {
 }
 
 .footer-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .footer-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   min-width: 150px;
   margin: 0 auto;
@@ -1031,8 +1122,17 @@ input[type="checkbox"].visually-hidden {
 }
 
 .social-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 46px;
   height: 48px;
@@ -1057,11 +1157,17 @@ input[type="checkbox"].visually-hidden {
 }
 
 .footer-copyright {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   margin-top: -2px;
   margin-right: 101px;
   margin-left: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center; 
 }
 
@@ -1087,6 +1193,16 @@ input[type="checkbox"].visually-hidden {
   margin-top: -27px;
 }
 
+@-webkit-keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes appearance {
   0% {
     opacity: 0;
@@ -1094,6 +1210,23 @@ input[type="checkbox"].visually-hidden {
   
   100% {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+
+  30%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  40%,
+  60% {
+    opacity: 0;
   }
 }
 
@@ -1119,6 +1252,7 @@ input[type="checkbox"].visually-hidden {
   margin-top: 2142px;
   color: #000000;
   background-color: #ffffff;
+  -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
   display: none;
   z-index: 5;
@@ -1126,10 +1260,12 @@ input[type="checkbox"].visually-hidden {
 
 .modal-show {
   display: block;
+  -webkit-animation: appearance 0.6s;
   animation: appearance 0.6s;
 }
 
 .modal-error {
+  -webkit-animation: blinking 0.6s;
   animation: blinking 0.6s;
 }
 
@@ -1158,6 +1294,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .date-info input[type="text"] {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 342px;
   height: 36px;
@@ -1231,8 +1368,16 @@ input[type="checkbox"].visually-hidden {
 }
 
 .people {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 25px 0;
 }
