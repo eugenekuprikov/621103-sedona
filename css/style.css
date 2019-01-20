@@ -12,9 +12,6 @@ body {
   color: #000000;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  background-image: url("../img/background-photo.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
 }
 
 .inner-page {
@@ -60,6 +57,17 @@ input[type="checkbox"].visually-hidden {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 62px; 
+}
+
+.bg-main-header {
+  width: 1200px;
+  height: 773px;
+  position: absolute;
+  background-color: #b5aca5;
+  background-image: url("../img/background-photo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -10;
 }
 
 .main-navigation {
@@ -136,7 +144,7 @@ input[type="checkbox"].visually-hidden {
 .city-wrapper img {
   width: 459px;
   height: 353px;
-  margin-top: 14px;
+  margin-top: 132px;
   margin-bottom: 116px;
 }
 
