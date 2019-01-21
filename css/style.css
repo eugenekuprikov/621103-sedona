@@ -892,7 +892,14 @@ input[type="checkbox"].visually-hidden {
 }
 
 .hotels-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
   min-width: 500px;
   margin-left: 30px;
@@ -987,6 +994,9 @@ input[type="checkbox"].visually-hidden {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   width: 182px;
   margin-bottom: 3px;
