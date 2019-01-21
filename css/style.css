@@ -1241,7 +1241,6 @@ input[type="checkbox"].visually-hidden {
 
 .modal {
   position: absolute;
-  margin-top: 2142px;
   color: #000000;
   background-color: #ffffff;
   -webkit-box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.15);
@@ -1262,7 +1261,7 @@ input[type="checkbox"].visually-hidden {
 }
 
 .modal-search {
-  top: 27px;
+  top: 0;
   left: 50%;
   width: 458px;
   margin-left: -285px;
