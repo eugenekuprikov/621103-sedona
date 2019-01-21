@@ -107,6 +107,37 @@
           <p>
             <img src="img/map.jpg" width="1200" height="593" alt="Месторасположение городка Седона">
           </p>
+
+          <section class="modal modal-search">
+            <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+              <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+              <p class="date-info">
+                <label for="date-check-in">Дата заезда:</label>
+                <input class="calendar-1" id="date-check-in" type="text" name="date-in" value="" placeholder="24 апреля 2017">
+                <button class="calendar-normal" type="button"><span class="visually-hidden">Календарь выбора даты въезда</span></button>
+              </p>
+              <p class="date-info">
+                <label for="departure-date">Дата выезда:</label>
+                <input class="calendar-2" id="departure-date" type="text" name="date-out" value="" placeholder="4 июля 2017">
+                <button class="calendar-normal-1" type="button"><span class="visually-hidden">Календарь выбора даты выезда</span></button>
+              </p>
+              <div class="people">
+                <p class="people-quantity">
+                  <label for="quantity-adults">Взрослые:</label>
+                  <button type="button" name="subtract">&ndash;</button>
+                  <input id="quantity-adults" type="text" name="number-adults" value="2">
+                  <button type="button" name="add">+</button>
+                </p>
+                <p class="people-quantity">
+                  <label for="quantity-children">Дети:</label>
+                  <button type="button" name="subtract">&ndash;</button>
+                  <input id="quantity-children" type="text" name="number-children" value="0">
+                  <button type="button" name="add">+</button>
+                </p>
+              </div>
+              <button class="button" type="submit">Найти</button>
+            </form>
+          </section>
         </section>
     	</main>
 
@@ -136,37 +167,6 @@
         </div>	    
       </footer>
     </div>
-
-    <section class="modal modal-search">
-      <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
-        <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-        <p class="date-info">
-          <label for="date-check-in">Дата заезда:</label>
-          <input class="calendar-1" id="date-check-in" type="text" name="date-in" value="" placeholder="24 апреля 2017">
-          <button class="calendar-normal" type="button"><span class="visually-hidden">Календарь выбора даты въезда</span></button>
-        </p>
-        <p class="date-info">
-          <label for="departure-date">Дата выезда:</label>
-          <input class="calendar-2" id="departure-date" type="text" name="date-out" value="" placeholder="4 июля 2017">
-          <button class="calendar-normal-1" type="button"><span class="visually-hidden">Календарь выбора даты выезда</span></button>
-        </p>
-        <div class="people">
-          <p class="people-quantity">
-            <label for="quantity-adults">Взрослые:</label>
-            <button type="button" name="subtract">&ndash;</button>
-            <input id="quantity-adults" type="text" name="number-adults" value="2">
-            <button type="button" name="add">+</button>
-          </p>
-          <p class="people-quantity">
-            <label for="quantity-children">Дети:</label>
-            <button type="button" name="subtract">&ndash;</button>
-            <input id="quantity-children" type="text" name="number-children" value="0">
-            <button type="button" name="add">+</button>
-          </p>
-        </div>
-        <button class="button" type="submit">Найти</button>
-      </form>
-    </section>
 
     <script src="js/popup.min.js"></script>
 
