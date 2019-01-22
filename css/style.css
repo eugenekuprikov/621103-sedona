@@ -910,17 +910,17 @@ input[type="checkbox"].visually-hidden {
   margin-left: 30px;
 }
 
-.chosen-hotels-item h3 a {
+.chosen-hotels-title a {
   font-size: 21px;
   line-height: 26px;
   color: #000000;
 }
 
-.chosen-hotels-item h3 a:hover {
+.chosen-hotels-title a:hover {
   color: #81b3d2;
 }
 
-.chosen-hotels-item h3 a:active {
+.chosen-hotels-title a:active {
   color: #cacaca;
 }
 
