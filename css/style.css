@@ -932,7 +932,9 @@ input[type="checkbox"].visually-hidden {
   color: #333333;
 }
 
-.chosen-hotels-detail .button {
+.chosen-hotels-detail {
+  display: block;
+  margin-top: 10px;
   margin-right: 6px;
   padding: 4px 16px;
   font-size: 14px;
@@ -943,21 +945,18 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
-.chosen-hotels-detail .button:hover {
+.chosen-hotels-detail:hover {
   background-color: #669ec0;
 }
 
-.chosen-hotels-detail .button:active {
+.chosen-hotels-detail:active {
   color: #94b9d2;
   background-color: #5496bd;
 }
 
-.chosen-hotels-booking a {
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.chosen-hotels-booking .button {
+.chosen-hotels-booking {
+  display: block;
+  margin-top: 10px;
   padding: 4px 18px;
   font-size: 14px;
   font-weight: bold;
@@ -967,11 +966,11 @@ input[type="checkbox"].visually-hidden {
   border: none;
 }
 
-.chosen-hotels-booking .button:hover {
+.chosen-hotels-booking:hover {
   background-color: #604e43;
 }
 
-.chosen-hotels-booking .button:active {
+.chosen-hotels-booking:active {
   color: #928a85;
   background-color: #503e33;
 }
