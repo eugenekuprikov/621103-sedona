@@ -248,6 +248,11 @@ input[type="checkbox"].visually-hidden {
   text-align: center;
 }
 
+.feature-container,
+.feature-container-second {
+  background-color: #81b3d2;
+}
+
 .feature-item h3 {
   margin: 0;
   padding-top: 18px;
